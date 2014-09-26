@@ -9,5 +9,9 @@ module RailsAdmin::Config::Fields::Types
     def dom_name
       @dom_name ||= "#{bindings[:form].object_name}_#{@name}"
     end
+
+    def parse_input(params)
+      "foo"
+    end
   end
 end

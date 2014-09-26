@@ -1,18 +1,18 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails_admin_geom_field/version'
+require 'rails_admin_spatial_field/version'
 
 Gem::Specification.new do |spec|
   spec.add_runtime_dependency("rails_admin", "> 0.4.0")
 
-  spec.name          = "rails_admin_geom_field"
+  spec.name          = "rails_admin_spatial_field"
   spec.version       = RailsAdminGeomField::VERSION
   spec.authors       = ["srt32"]
   spec.email         = ["simon.taranto@gmail.com"]
-  spec.summary       = %q{PostGIS Geometry Support for Rails Admin}
-  spec.description   = %q{PostGIS Geometry Support for Rails Admin.}
-  spec.homepage      = "https://github.com/srt32/rails_admin_geom_field"
+  spec.summary       = %q{PostGIS Spatial Support for Rails Admin}
+  spec.description   = %q{PostGIS Spatial Support for Rails Admin.}
+  spec.homepage      = "https://github.com/srt32/rails_admin_spatial_field"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

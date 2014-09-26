@@ -1,6 +1,6 @@
 module RailsAdmin::Config::Fields::Types
-  class Geom < RailsAdmin::Config::Fields::Base
-    RailsAdmin::Config::Fields::Types::register(:geom, self)
+  class Spatial < RailsAdmin::Config::Fields::Base
+    RailsAdmin::Config::Fields::Types::register(:spatial, self)
 
     def allowed_methods
       [@name]

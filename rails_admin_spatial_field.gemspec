@@ -5,7 +5,7 @@ require 'rails_admin_spatial_field/version'
 
 Gem::Specification.new do |spec|
   spec.add_runtime_dependency("rails_admin", "> 0.4.0")
-  spec.add_runtime_dependency("rgeo/rgeo_json")
+  spec.add_runtime_dependency("rgeo-geojson")
 
   spec.name          = "rails_admin_spatial_field"
   spec.version       = RailsAdminSpatialField::VERSION

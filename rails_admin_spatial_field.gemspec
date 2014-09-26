@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency("rails_admin", "> 0.4.0")
 
   spec.name          = "rails_admin_spatial_field"
-  spec.version       = RailsAdminGeomField::VERSION
+  spec.version       = RailsAdminSpatialField::VERSION
   spec.authors       = ["srt32"]
   spec.email         = ["simon.taranto@gmail.com"]
   spec.summary       = %q{PostGIS Spatial Support for Rails Admin}

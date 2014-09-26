@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["srt32"]
   spec.email         = ["simon.taranto@gmail.com"]
   spec.summary       = %q{PostGIS Spatial Support for Rails Admin}
-  spec.description   = %q{PostGIS Spatial Support for Rails Admin.}
+  spec.description   = %q{Allows Rails Admin to work with PostGIS spatial field type.}
   spec.homepage      = "https://github.com/srt32/rails_admin_spatial_field"
   spec.license       = "MIT"
 

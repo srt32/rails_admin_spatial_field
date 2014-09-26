@@ -11,7 +11,7 @@ module RailsAdmin::Config::Fields::Types
     end
 
     def parse_input(params)
-      "foo"
+      params[:value] = "foo"
     end
   end
 end
